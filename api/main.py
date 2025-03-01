@@ -29,8 +29,8 @@ async def ping():
 
 def read_file_as_image(data) -> np.ndarray:
     image = Image.open(BytesIO(data)).convert('RGB')  
-    image = image.resize((256, 256))  # Resize image
-    image = np.array(image) / 255.0  # Rescale image
+    image = image.resize((256, 256))  
+    image = np.array(image) / 255.0  
     return image
 
 @app.post("/predict")
