@@ -1,6 +1,4 @@
 
-
-```markdown
 # Tomato Leaf Disease Classifier
 
 A deep learning-based system that uses Convolutional Neural Networks (CNN) to detect and classify diseases in tomato plant leaves. The system employs a two-stage classification approach for accurate disease identification.
